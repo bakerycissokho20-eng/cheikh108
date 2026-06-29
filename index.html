@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Couture Tourré - Atelier de Haute Couture Africaine</title>
+    <style>
+        /* Styles Généraux */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f6f0;
+            color: #333;
+        }
+
+        header {
+            background-color: #4a2c11; /* Couleur riche évoquant le luxe et la tradition */
+            color: gold;
+            text-align: center;
+            padding: 2rem 1rem;
+            border-bottom: 5px solid #d4af37; /* Ligne dorée */
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            color: #d4af37;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            margin: 0.5rem 0 0 0;
+            font-style: italic;
+            font-size: 1.2rem;
+            color: #fff;
+        }
+
+        /* Section À Propos */
+        .intro {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            text-align: center;
+        }
+
+        /* Galerie de Photos */
+        .gallery-container {
+            max-width: 1100px;
+            margin: 0 auto padding 2rem 1rem;
+        }
+
+        .gallery-title {
+            text-align: center;
+            color: #4a2c11;
+            margin-bottom: 1.5rem;
+            font-size: 1.8rem;
+            border-bottom: 2px solid #d4af37;
+            display: inline-block;
+            padding-bottom: 0.5rem;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            padding: 1rem 0;
+        }
+
+        .gallery-item {
+            background-color: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+
+        .gallery-item:hover {
+            transform: scale(1.03);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .gallery-item .desc {
+            padding: 1rem;
+            text-align: center;
+            font-weight: bold;
+            color: #4a2c11;
+        }
+
+        /* Section Contact / Bouton WhatsApp */
+        .contact-section {
+            background-color: #fff;
+            padding: 3rem 1rem;
+            text-align: center;
+            margin-top: 3rem;
+            border-top: 1px solid #eee;
+        }
+
+        .btn-whatsapp {
+            display: inline-block;
+            background-color: #25D366;
+            color: white;
+            text-decoration: none;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            border-radius: 50px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        .btn-whatsapp:hover {
+            background-color: #128C7E;
+            transform: translateY(-2px);
+        }
+
+        footer {
+            background-color: #4a2c11;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Couture Tourré</h1>
+        <p>L'élégance du Bazin et des Modèles Africains sur-mesure</p>
+    </header>
+
+    <section class="intro">
+        <h2>Bienvenue dans mon atelier en ligne</h2>
+        <p>Découvrez mes propres coutures, mes créations uniques en Bazin et une large gamme de modèles africains traditionnels et modernes. Chaque pièce est cousue avec passion et précision pour sublimer votre style.</p>
+    </section>
+
+    <main class="gallery-container">
+        <h2 class="gallery-title">Mes Créations & Modèles</h2>
+        
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="WhatsApp Image 1.jpeg" alt="Modèle Bazin Africain">
+                <div class="desc">Grand Boubou Bazin Premium</div>
+            </div>
+            
+            <div class="gallery-item">
+                <img src="WhatsApp Image 4.jpeg" alt="Couture Africaine">
+                <div class="desc">Tenue de Mariage Traditionnelle</div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="WhatsApp Image 2.jpeg" alt="Style Africain Moderne">
+                <div class="desc">Coupe Moderne & Broderie Fine</div>
+            </div>
+        </div>
+    </main>
+
+    <section class="contact-section">
+        <h2>Un modèle vous plaît ? Passez commande !</h2>
+        <p>Contactez-moi directement pour discuter de vos mesures, du choix des tissus et de vos modèles préférés.</p>
+        <p style="font-size: 1.2rem; margin-bottom: 1.5rem;">Téléphone : <strong>43 18 06 53</strong></p>
+        
+        <a href="https://wa.me/22243180653" class="btn-whatsapp" target="_blank">
+            Discuter sur WhatsApp
+        </a>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Couture Tourré - Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
